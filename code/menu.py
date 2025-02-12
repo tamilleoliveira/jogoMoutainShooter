@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 
 class Menu:
-    def __init__(self):
-        self.window.Surface = None
+    def __init__(self, window):
+        self.window.Surface = window
 
     def run(self, ):
         pass
 
-    def Operation2(self, ):
-        pass
+
