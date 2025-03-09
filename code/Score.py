@@ -79,7 +79,6 @@ class Score:
                 if event.type == KEYDOWN:
                     if event.key == K_ESCAPE:
                         return
-
             pygame.display.flip()
 
     def score_text(self, text_size: int, text: str, text_color: tuple, text_center_pos: tuple):
